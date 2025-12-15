@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ĀYURVEDA CONTACT</title>
+
+    <link rel="icon" type="image/png" href="./assets/fevicon.png">
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./css-folder/contact.css" />
+  </head>
+  <body>
+    <!-- Modern Navbar -->
+    <nav class="modern-nav">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="./index.html" class="nav-brand">
+            <div class="brand-glow"></div>
+            <i class="fas fa-spa brand-icon"></i>
+            <span class="brand-text">ĀYURVEDA</span>
+          </a>
+
+          <div class="nav-menu">
+            <div class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <div class="nav-item">
+              <a href="#" class="nav-link">Wellness</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <!-- <div class="nav-item">
+              <a href="#" class="nav-link">Dosha Test</a>
+              <div class="nav-indicator"></div>
+            </div> -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">Treatments</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <div class="nav-item">
+              <a href="./about.html" class="nav-link">About</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <div class="nav-item">
+              <a href="./contact.html" class="nav-link nav-cta">
+                <i class="fas fa-calendar-check me-2"></i>
+                Contact Us
+              </a>
+            </div>
+          </div>
+
+          <button class="hamburger-modern" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <main>
+      <!-- ================= CONTACT HERO ================= -->
+      <section class="contact-hero">
+        <div class="container text-center">
+          <h1 class="page-title">Get In Touch</h1>
+          <p class="page-subtitle">
+            We're here to guide you on your Ayurvedic journey. Reach out for
+            consultations, questions, or to schedule your personalized wellness
+            session.
+          </p>
+        </div>
+      </section>
+
+      <!-- ================= CONTACT CONTENT ================= -->
+      <div class="contact-container">
+        <div class="contact-grid">
+          <!-- CONTACT FORM -->
+          <div class="contact-form-section">
+            <h2 class="form-title">Send Us a Message</h2>
+            <p class="form-subtitle">
+              Fill out the form below and our Ayurvedic experts will get back to
+              you within 24 hours.
+            </p>
+
+            <form action="" method="post" id="contactForm">
+              <div class="form-group">
+                <label class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="form-label">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter your email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="form-label">Phone Number</label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      placeholder="Enter your phone number"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Subject</label>
+                <select class="form-control">
+                  <option value="">Select a subject</option>
+                  <option value="consultation">Ayurvedic Consultation</option>
+                  <option value="treatment">Treatment Information</option>
+                  <option value="booking">Appointment Booking</option>
+                  <option value="general">General Inquiry</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Your Message</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Tell us about your wellness goals..."
+                  rows="5"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane me-2"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div class="contact-info-section">
+            <h2 class="info-title">Contact Information</h2>
+            <p class="info-subtitle">
+              Feel free to reach out through any of these channels.
+            </p>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="info-content">
+                <h4>Visit Our Center</h4>
+                <p>ballygung military camp , kolkata-700019</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-phone"></i></div>
+              <div class="info-content">
+                <h4>Call Us</h4>
+                <p>+91 8232066487</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="info-content">
+                <h4>Email Us</h4>
+                <p>info@ayurvedamodern.com</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="info-icon"><i class="fas fa-clock"></i></div>
+              <div class="info-content">
+                <h4>Business Hours</h4>
+                <p>Mon–Fri: 9AM – 7PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= MAP ================= -->
+        <!-- <div class="map-section">
+    <div class="map-container">
+      <div class="map-placeholder">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3>Our Location</h3>
+        <p>Click to view on Google Maps</p>
+      </div>
+    </div>
+  </div> -->
+
+        <!-- ================= FAQ ================= -->
+        <!-- FAQ Section -->
+        <div class="faq-section">
+          <h2 class="faq-title">Frequently Asked Questions</h2>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>How soon will I receive a response to my inquiry?</h4>
+              <i class="fas fa-plus faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We strive to respond to all inquiries within 24 hours. For
+                urgent matters, please call our center directly at +1 (555)
+                123-4567.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Do I need a consultation before starting treatments?</h4>
+              <i class="fas fa-plus faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, all new clients require an initial consultation where our
+                Ayurvedic doctors will assess your dosha type, health history,
+                and wellness goals to create a personalized treatment plan.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>What should I bring to my first consultation?</h4>
+              <i class="fas fa-plus faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Please bring any relevant medical records, a list of current
+                medications or supplements, and be prepared to discuss your
+                health history, lifestyle, and wellness goals.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Do you offer virtual consultations?</h4>
+              <i class="fas fa-plus faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we offer virtual consultations for clients who cannot visit
+                in person. These are conducted via secure video conference and
+                include digital dosha analysis tools.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>What is your cancellation policy?</h4>
+              <i class="fas fa-plus faq-icon"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We require 24 hours notice for appointment cancellations. Late
+                cancellations may incur a fee, except in cases of emergency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/919999999999?text=Hello%20I%20would%20like%20to%20book%20an%20Ayurveda%20consultation"
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Simple Modern Footer -->
+    <footer class="modern-footer">
+      <!-- Decorative Elements -->
+      <div class="footer-decoration"><i class="fas fa-leaf"></i></div>
+      <div class="footer-decoration"><i class="fas fa-spa"></i></div>
+
+      <div class="container">
+        <!-- Footer Top Section -->
+        <div class="footer-top">
+          <div class="row">
+            <!-- Company Info -->
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <a href="./index.html" class="footer-logo">
+                <i class="fas fa-spa"></i>
+                <span>ĀYURVEDA</span>
+              </a>
+              <p class="footer-description">
+                Ancient wisdom meets modern healing. Experience transformation
+                through personalized Ayurvedic care for mind, body, and spirit.
+              </p>
+
+              <div class="social-links">
+                <a href="#" class="social-icon" title="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon" title="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon" title="YouTube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-icon" title="Pinterest">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6 mb-md-0">
+              <h4 class="footer-heading">Quick Links</h4>
+              <ul class="footer-links">
+                <li>
+                  <a href="./index.html"
+                    ><i class="fas fa-chevron-right"></i> Home</a
+                  >
+                </li>
+                <li>
+                  <a href="./about.html"
+                    ><i class="fas fa-chevron-right"></i> About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chevron-right"></i> Treatments</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chevron-right"></i> Dosha Test</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-chevron-right"></i> Wellness</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Our Services -->
+            <div class="col-lg-3 col-md-6 mb-md-0">
+              <h4 class="footer-heading">Our Services</h4>
+              <ul class="footer-links">
+                <li>
+                  <a href="#"><i class="fas fa-spa"></i> Panchakarma</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-hand-holding-heart"></i> Abhyanga</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-brain"></i> Shirodhara</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user-md"></i> Consultation</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-seedling"></i> Herbal Remedies</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6">
+              <h4 class="footer-heading">Contact Us</h4>
+              <ul class="footer-contact" style="padding-left: 0 !important">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>123 Wellness Street<br />Ayurveda City, AC 10001</span>
+                </li>
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <span>+1 (555) 123-4567</span>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <span>info@ayurvedamodern.com</span>
+                </li>
+                <li>
+                  <i class="fas fa-clock"></i>
+                  <span>Mon - Fri: 9AM - 7PM<br />Sat: 10AM - 4PM</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Divider -->
+        <!-- <div class="footer-divider"></div> -->
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p class="copyright">© 2024 Ayurveda Modern. All rights reserved.</p>
+          <span>Proudly developed by <a href="https://designglobal.in/">Design Global Technology</a></span>
+
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js-folder/contact.js"></script>
+  </body>
+</html>

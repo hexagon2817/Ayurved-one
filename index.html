@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ĀYURVEDA</title>
+
+    <link rel="icon" type="image/png" href="./assets/fevicon.png">
+
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./css-folder/style.css" />
+  </head>
+  <body>
+    <!-- Modern Navbar -->
+    <nav class="modern-nav">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="./index.html" class="nav-brand">
+            <div class="brand-glow"></div>
+            <i class="fas fa-spa brand-icon"></i>
+            <span class="brand-text">ĀYURVEDA</span>
+          </a>
+
+          <div class="nav-menu">
+            <div class="nav-item">
+              <a href="./index.html" class="nav-link">Home</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <div class="nav-item">
+              <a href="#" class="nav-link">Wellness</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <!-- <div class="nav-item">
+              <a href="#" class="nav-link">Dosha Test</a>
+              <div class="nav-indicator"></div>
+            </div> -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">Treatments</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <div class="nav-item">
+              <a href="./about.html" class="nav-link">About</a>
+              <div class="nav-indicator"></div>
+            </div>
+            <div class="nav-item">
+              <a href="./contact.html" class="nav-link nav-cta">
+                <i class="fas fa-calendar-check me-2"></i>
+                Contact Us
+              </a>
+            </div>
+          </div>
+
+          <button class="hamburger-modern" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <main>
+      <!-- Hero Section  -->
+
+      <section class="hero-section pb-5">
+        <div class="hero-bg-elements">
+          <div class="floating-herb"><i class="fas fa-leaf"></i></div>
+          <div class="floating-herb"><i class="fas fa-seedling"></i></div>
+          <div class="floating-herb"><i class="fas fa-spa"></i></div>
+          <div class="floating-herb"><i class="fas fa-feather-alt"></i></div>
+        </div>
+
+        <div id="particles-js"></div>
+
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span class="title-line">Ancient Wisdom</span>
+              <span class="title-line">Modern Healing</span>
+              <span class="title-line">For Your Wellbeing</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Discover the 5,000-year-old science of Ayurveda. Balance your
+              mind, body, and spirit through personalized holistic treatments
+              that transform from within.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#" class="hero-btn btn-primary">
+                <div class="btn-glow"></div>
+                <i class="fas fa-play-circle"></i>
+                <span>Start Your Journey</span>
+              </a>
+              <a href="#" class="hero-btn btn-secondary">
+                <i class="fas fa-video"></i>
+                <span>Watch Introduction</span>
+              </a>
+            </div>
+
+            <div class="hero-features">
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-user-md"></i></div>
+                <div class="feature-main">Expert Practitioners</div>
+                <p class="feature-sub">Certified Ayurvedic doctors</p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <div class="feature-main">Holistic Approach</div>
+                <p class="feature-sub">Mind, body & spirit healing</p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon"><i class="fas fa-award"></i></div>
+                <div class="feature-main">5,000+ Years</div>
+                <p class="feature-sub">Ancient proven wisdom</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SECTION DIVIDER ================= -->
+      <div class="section-divider">
+        <div class="divider-icon">
+          <i class="fas fa-spa"></i>
+        </div>
+      </div>
+
+      <!-- ================= PILLARS SECTION ================= -->
+      <section class="pillars-section">
+        <div class="container">
+          <h2 class="section-title">The Three Pillars of Ayurveda</h2>
+          <p class="section-subtitle">
+            Ayurveda is built upon three fundamental principles.
+          </p>
+
+          <div class="pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-number">01</div>
+              <div class="pillar-icon">
+                <i class="fas fa-balance-scale"></i>
+              </div>
+              <h3 class="pillar-title">Dosha Balance</h3>
+              <p class="pillar-description">
+                Restoring harmony of Vata, Pitta & Kapha.
+              </p>
+              <a href="#" class="pillar-learn-more">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-number">02</div>
+              <div class="pillar-icon"><i class="fas fa-leaf"></i></div>
+              <h3 class="pillar-title">Agni</h3>
+              <p class="pillar-description">Strengthening digestive fire.</p>
+              <a href="#" class="pillar-learn-more">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-number">03</div>
+              <div class="pillar-icon"><i class="fas fa-tint"></i></div>
+              <h3 class="pillar-title">Dhatu</h3>
+              <p class="pillar-description">Nourishing body tissues.</p>
+              <a href="#" class="pillar-learn-more">
+                Learn More <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= SECTION DIVIDER ================= -->
+      <div class="section-divider">
+        <div class="divider-icon">
+          <i class="fas fa-spa"></i>
+        </div>
+      </div>
+
+      <!-- ================= AYURVEDA EXPERIENCE ================= -->
+      <section class="ayurveda-experience">
+        <div class="container">
+          <!-- Section Intro -->
+          <div class="experience-header">
+            <h2 class="experience-title">
+              Experience Ayurveda<br />
+              <span>Beyond Treatment</span>
+            </h2>
+            <p class="experience-subtitle">
+              Ayurveda is a journey — a conscious path toward balance, vitality,
+              and long-lasting wellness.
+            </p>
+          </div>
+
+          <!-- Experience Rows -->
+          <div class="experience-rows">
+            <div class="experience-row">
+              <div class="experience-text">
+                <h3>Personalized Healing</h3>
+                <p>
+                  No two individuals are the same. Our therapies are carefully
+                  designed around your unique dosha, lifestyle, and health
+                  goals.
+                </p>
+              </div>
+              <div class="experience-visual">
+                <i class="fas fa-user-md"></i>
+              </div>
+            </div>
+
+            <div class="experience-row reverse">
+              <div class="experience-text">
+                <h3>Natural Therapies</h3>
+                <p>
+                  From Panchakarma to herbal formulations, every treatment is
+                  rooted in purity, tradition, and care.
+                </p>
+              </div>
+              <div class="experience-visual">
+                <i class="fas fa-leaf"></i>
+              </div>
+            </div>
+
+            <div class="experience-row">
+              <div class="experience-text">
+                <h3>Mind–Body Balance</h3>
+                <p>
+                  Healing goes beyond symptoms. We nurture emotional, mental,
+                  and physical harmony for complete wellbeing.
+                </p>
+              </div>
+              <div class="experience-visual">
+                <i class="fas fa-spa"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="experience-cta">
+            <a href="#" class="hero-btn btn-primary">
+              <span>Begin Your Healing Journey</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+<a
+  href="https://wa.me/919999999999?text=Hello%20I%20would%20like%20to%20book%20an%20Ayurveda%20consultation"
+  class="whatsapp-float"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+    <!-- Simple Modern Footer -->
+    <footer class="modern-footer">
+      <!-- Decorative Elements -->
+      <div class="footer-decoration"><i class="fas fa-leaf"></i></div>
+      <div class="footer-decoration"><i class="fas fa-spa"></i></div>
+
+      <div class="container">
+        <!-- Footer Top Section -->
+        <div class="footer-top">
+          <div class="row">
+            <!-- Company Info -->
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <a href="./index.html" class="footer-logo">
+                <i class="fas fa-spa"></i>
+                <span>ĀYURVEDA</span>
+              </a>
+              <p class="footer-description">
+                Ancient wisdom meets modern healing. Experience transformation
+                through personalized Ayurvedic care for mind, body, and spirit.
+              </p>
+
+              <div class="social-links">
+                <a href="#" class="social-icon" title="Facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon" title="Instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon" title="YouTube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" class="social-icon" title="Pinterest">
+                  <i class="fab fa-pinterest-p"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-6 mb-md-0">
+              <h4 class="footer-heading">Quick Links</h4>
+              <ul class="footer-links">
+                <li>
+                  <a href="./index.html"
+                    ><i class="fas fa-chevron-right"></i> Home</a
+                  >
+                </li>
+                <li>
+                  <a href="./about.html"
+                    ><i class="fas fa-chevron-right"></i> About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chevron-right"></i> Treatments</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chevron-right"></i> Dosha Test</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-chevron-right"></i> Wellness</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Our Services -->
+            <div class="col-lg-3 col-md-6 mb-md-0">
+              <h4 class="footer-heading">Our Services</h4>
+              <ul class="footer-links">
+                <li>
+                  <a href="#"><i class="fas fa-spa"></i> Panchakarma</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-hand-holding-heart"></i> Abhyanga</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-brain"></i> Shirodhara</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user-md"></i> Consultation</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-seedling"></i> Herbal Remedies</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="col-lg-3 col-md-6">
+              <h4 class="footer-heading">Contact Us</h4>
+              <ul class="footer-contact" style="padding-left: 0 !important">
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>123 Wellness Street<br />Ayurveda City, AC 10001</span>
+                </li>
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <span>+1 (555) 123-4567</span>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <span>info@ayurvedamodern.com</span>
+                </li>
+                <li>
+                  <i class="fas fa-clock"></i>
+                  <span>Mon - Fri: 9AM - 7PM<br />Sat: 10AM - 4PM</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Divider -->
+        <!-- <div class="footer-divider"></div> -->
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p class="copyright">© 2024 Ayurveda Modern. All rights reserved.</p>
+          <span>Proudly developed by <a href="https://designglobal.in/">Design Global Technology</a></span>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Disclaimer</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js-folder/app.js"></script>
+  </body>
+</html>
